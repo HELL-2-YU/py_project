@@ -1,4 +1,6 @@
-from funcs import add
+from funcs import subtract
 
-result = add(5, 3)
-print(f"Addition result: {result}")
+result_add = add(5, 3)
+result_subtract = subtract(5, 3)
+print(f"Результат сложения: {result_add}")
+print(f"Результат вычитания: {result_subtract}")
